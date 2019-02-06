@@ -1,0 +1,35 @@
+\begin{thebibliography}{MB14b}
+
+\bibitem[EJG03]{GBPG}
+Benny Pinkas und Philippe~Golle Eu-Jin~Goh, Dan~Boneh.
+\newblock The design and implementation of protocol-based hidden key recovery.
+\newblock 2003.
+
+\bibitem[GG13]{Guard}
+Ewen~MacAskill Glenn~Greenwald.
+\newblock Nsa prism program taps in to user data of apple, google and others.
+\newblock {\em The Guardian}, 06 2013.
+
+\bibitem[MB14a]{BPR}
+Kenneth G. Paterson und Phillip~Rogaway Mihir~Bellare.
+\newblock Security of symmetric encryption against mass surveillance.
+\newblock 8616:1--19, 2014.
+
+\bibitem[MB14b]{praesi}
+Phillip~Rogaway Mihir~Bellare, Kenneth G.~Paterson.
+\newblock Security of symmetric encryption against mass surveillance.
+\newblock \url{https://www.youtube.com/watch?v=rg-Trmi17T8} und Crypto 2014, 10
+  2014.
+
+\bibitem[MB15]{BJK}
+Daniel~Kane Mihir~Bellare, Joseph~Jaeger.
+\newblock Mass-surveillance without the state: Strongly undetectable
+  algorithm-substitution attacks.
+\newblock 08 2015.
+
+\bibitem[Sch07]{dual}
+Bruce Schneier.
+\newblock Did nsa put a secret backdoor in new encryption standard?
+\newblock {\em WIRED Business}, 11 2007.
+
+\end{thebibliography}

@@ -1,0 +1,95 @@
+% Encoding: windows-1252
+
+@Article{BPR,
+  author   = {Mihir Bellare, Kenneth G. Paterson und Phillip Rogaway},
+  title    = {Security of Symmetric Encryption against Mass Surveillance},
+  year     = {2014},
+  volume   = {8616},
+  pages    = {1-19},
+  issn     = {0302-9743},
+  abstract = {Motivated by revelations concerning population-wide surveillance of encrypted communications, we formalize and investigate the resistance of symmetric encryption schemes to mass surveillance. The focus is on algorithm-substitution attacks (ASAs), where a subverted encryption algorithm replaces the real one. We assume that the goal of “big brother” is undetectable subversion, meaning that ciphertexts produced by the subverted encryption algorithm should reveal plaintexts to big brother yet be indistinguishable to users from those produced by the real encryption scheme. We formalize security notions to capture this goal and then offer both attacks and defenses. In the first category we show that successful (from the point of view of big brother) ASAs may be mounted on a large class of common symmetric encryption schemes. In the second category we show how to design symmetric encryption schemes that avoid such attacks and meet our notion of security. The lesson that emerges is the danger of choice: randomized, stateless schemes are subject to attack while deterministic, stateful ones are not.},
+  doi      = {10.1007/978-3-662-44371-2_1},
+  keywords = {rank5},
+}
+
+@Misc{saltbae,
+  author       = {Nusret Goekce},
+  title        = {Saltbae},
+  howpublished = {\url{https://www.instagram.com/nusr_et/}},
+  month        = {01},
+  year         = {2016},
+}
+
+@Misc{noIdea,
+  author       = {Lolabego on Thumblr},
+  howpublished = {\url{http://lolabego.tumblr.com/}},
+  month        = {06},
+  year         = {2011},
+}
+
+@Misc{praesi,
+  author       = {Mihir Bellare, Kenneth G. Paterson, Phillip Rogaway},
+  title        = {Security of Symmetric Encryption against Mass Surveillance},
+  howpublished = {\url{https://www.youtube.com/watch?v=rg-Trmi17T8} und Crypto 2014},
+  month        = {10},
+  year         = {2014},
+}
+
+@Article{GBPG,
+  author   = {Eu-Jin Goh, Dan Boneh, Benny Pinkas und Philippe Golle},
+  title    = {The Design and Implementation of Protocol-Based Hidden Key Recovery},
+  year     = {2003},
+  abstract = {We show how to add key recovery to existing security protocols such as SSL/TLS and SSH without changing the protocol. Our
+key recovery designs possess the following novel features: (1) The Key
+recovery channels are “unfilterable” — the key recovery channels cannot be removed without also breaking correct operation of the protocol.
+(2) Protocol implementations containing our key recovery designs can
+inter-operate with standard (uncompromised) protocol implementations
+— the network traffic produced is indistinguishable from that produced
+by legitimate protocol implementations. (3) Keys are recovered in real
+time, hence most or all application data is recovered. (4) The key recovery channels exploit protocol features, rather than covert channels in
+encryption or signature algorithms.
+Using these designs, we present practical key recovery attacks on the
+SSL/TLS and SSH 2 protocols. We implemented the attack on SSL/TLS
+using the OpenSSL library, a web browser, and a network sniffer. These
+tools allow us to eavesdrop on SSL/TLS connections from the browser
+to any server.},
+}
+
+@Misc{inject,
+  title        = {An injective non-surjective function},
+  howpublished = {\url{https://en.wikipedia.org/wiki/Injective_function#/media/File:Injection.svg}},
+  month        = {01},
+  year         = {2017},
+}
+
+@Article{Guard,
+  author  = {Glenn Greenwald, Ewen MacAskill},
+  title   = {NSA Prism program taps in to user data of Apple, Google and others},
+  journal = {The Guardian},
+  year    = {2013},
+  month   = {06},
+  url     = {\url{https://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data}},
+}
+
+@Article{Dual,
+  author  = {Bruce Schneier},
+  title   = {Did NSA Put a Secret Backdoor in New Encryption Standard?},
+  journal = {WIRED Business},
+  year    = {2007},
+  month   = {11},
+  url     = {\url{https://www.wired.com/2007/11/securitymatters-1115/}},
+}
+
+@Article{BJK,
+  author   = {Mihir Bellare, Joseph Jaeger, Daniel Kane},
+  title    = {Mass-surveillance without the State: Strongly Undetectable Algorithm-Substitution Attacks},
+  year     = {2015},
+  month    = {08},
+  abstract = {We present new algorithm-substitution attacks (ASAs) on symmetric encryption that improve over prior ones in two ways. First, while prior attacks only broke a sub-class of randomized schemes having a property called coin injectivity, our attacks break all randomized
+schemes. Second, while prior attacks are stateful, ours are stateless, achieving a notion of strong
+undetectability that we formalize. Together this shows that ASAs are an even more dangerous
+and powerful mass surveillance method than previously thought. Our work serves to increase
+awareness about what is possible with ASAs and to spur the search for deterrents and countermeasures.},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

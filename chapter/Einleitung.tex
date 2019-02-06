@@ -1,0 +1,30 @@
+\chapter{Einleitung}
+\label{ch:Einleitung}
+
+\begin{section}{Hintergrund}
+\label{sec:hintergrund}
+
+Seit den Snowden Ver"-öffentlichungen ist öffentlich bekannt, dass Massen"-über"-wachung im Internet Heute möglich ist und auch stattfindet. Durch zum Beispiel maniupulierte Pseudozufallsgeneratoren wie der NIST Dual EC DRBG entstehen Backdoors in eigentlich sicheren Übertragungen (\cite{dual}). Diese Ausarbeitung des original Papers Security of Symmetric Encryption against Mass Surveillance von Mihir Bellare, Kenneth G. Paterson und Phillip Rogaway handelt von Algorithm Substitution Attacks, kurz ASAs, als eine spezielle Angriffstechnik gegen symmetrische Verschlüsselungsverfahren. Grundidee hinter einem ASA ist das korrumpieren eines eigentlich sicheren symmetrischen Schemas $\Pi$, durch den Austausch der Verschlüsselugs"-funktion  $\mathcal{E}$ durch eine Subversion $\widetilde{\mathcal{E}}$. Also findet der Angriff nicht von Außen, sondern von Innen statt. Eine solche Subversion soll das Geheimnis in der regulären Übertragung verstecken.
+
+\end{section}
+
+\begin{section}{Big Brother}
+\label{sec:big_brother}
+
+Big Brother $(\mathscr{B})$ steht in diesem Paper als Synonym für Regierungen oder Geheimdienste. Wir nehmen an, dass $\mathscr{B}$  durch seine politische und/oder finanzielle Macht in der Lage ist $\mathcal{E}$ gegen eine korrumpiere Subversion $\widetilde{\mathcal{E}}$ auf beliebigen Maschinen auszutauschen. In diesem Angriffsmodell ist $\mathscr{B}$ ein passiver Angreifer, der einen Masterschlüssel $\widetilde{\mathcal{K}}$ hält. Sein Ziel ist es dabei den Ciphertext $\mathcal{C}$ zu entschlüsseln oder mit Hilfe von $\widetilde{\mathcal{K}}$ den symmetrischen Schlüssel $\mathcal{K}$ zu ermitteln und letztendlich auch den Ciphertext $\mathcal{C}$ zu entschlüsseln. Dabei möchte Big Brother immer unentdeckt bleiben.
+
+\end{section}
+
+\begin{section}{Good Guys}
+\label{sec:good_guys}
+
+Als Gegenspieler treten in diesen Fall Alice und Bob als Nutzer an. Die Nutzer verwenden ein symmetrisches Verschlüsselungsschema $\Pi$ mit dem symmetrischen Schlüssel $\mathcal{K}$. Dabei möchten sie mögliche korrumpierte Subversionen $\widetilde{\mathcal{E}}$ oder manipulierte $\mathcal{C}$s entdecken. Ziel des Nutzers ist es gegen ASAs resistente Schemen zu finden. So könnten effektiv Angriffe dieser Art verhindern werden.
+
+\end{section}
+
+\begin{section}{Angriffs Ziele}
+\label{sec:angriffs_ziele}
+
+Algorithm Substitution Attacks setzen auf symmetrische Verschlüsselungs"-schemen mit Zufallskomponenten ohne und mit öffentlichen nonce auf. Sie nutzen black-box Verhalten und die nicht Verifizierbarkeit dieser Zufälle. Selbst open source Bibliotheken kann man in der realen Welt ein gewisses black-box Verhalten zuschreiben, denn außer wenigen Entwicklern setzt sich kaum jemand mit den konkreten Implementierungen auseinander. In dem Originalwerk wird gezeigt, dass fast alle symmetrischen Verschlüsselungsverfahren angreifbar sind.
+
+\end{section}

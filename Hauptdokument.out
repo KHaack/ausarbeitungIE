@@ -1,0 +1,27 @@
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Hintergrund}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Big Brother}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Good Guys}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Angriffs Ziele}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Grundlagen}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Die ideale Welt}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Korrektheit}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{Decryptability}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.4}{Detection Advantage}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Angriffe}{}% 11
+\BOOKMARK [1][-]{section.3.1}{IV-replacement \(stateful\) attack}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.1.1}{Grundidee}{section.3.1}% 13
+\BOOKMARK [2][-]{subsection.3.1.2}{Durchf\374hrung}{section.3.1}% 14
+\BOOKMARK [2][-]{subsection.3.1.3}{Entdeckbarkeit}{section.3.1}% 15
+\BOOKMARK [1][-]{section.3.2}{IV-replacement \(stateless\) attack}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Grundidee}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.2}{Durchf\374hrung}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.3}{Entdeckbarkeit}{section.3.2}% 19
+\BOOKMARK [1][-]{section.3.3}{biased-ciphertext attack}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.1}{Grundidee}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.2}{Durchf\374hrung}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.3}{Entdeckbarkeit}{section.3.3}% 23
+\BOOKMARK [0][-]{chapter.4}{Gegenmassnahmen}{}% 24
+\BOOKMARK [0][-]{chapter.5}{Zusammenfassung}{}% 25
+\BOOKMARK [0][-]{chapter.6}{Literaturverzeichnis}{}% 26
+\BOOKMARK [0][-]{chapter.7}{Abbildungsverzeichnis}{}% 27

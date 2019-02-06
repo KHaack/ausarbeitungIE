@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% Präambel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper, bibliography=totocnumbered, listof=totocnumbered, oneside, 12pt, ngerman]{scrbook}
+\usepackage{geometry}
+\geometry{a4paper,left=35mm,right=35mm,top=12mm,bottom=20mm, includeheadfoot}
+\setlength\headheight{8mm}
+
+% color
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{0,128,255}
+\definecolor{green}{RGB}{0,128,0}
+\definecolor{orange}{RGB}{255,128,0}
+\definecolor{lila}{RGB}{128,0,255}
+\definecolor{black}{RGB}{0,0,0}
+
+% Absätze
+\parindent=0cm
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% speech
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+% font
+\usepackage{lmodern}
+\renewcommand\textbullet{\ensuremath{\bullet}}
+
+% hyperlinks
+\usepackage[hyphens]{url}
+\usepackage[hidelinks]{hyperref}
+
+% math
+\usepackage{mathrsfs}
+
+% Bibliothek
+\usepackage{bibgerm}
+\bibliographystyle{alpha}
+
+% graphics
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png,.jpg}
+
+% pseudocode
+\usepackage{algpseudocode}
+
+% theorem
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+
+% Codebeispiel
+\usepackage{scrhack}
+\usepackage{listings}
+\renewcommand{\lstlistlistingname}{Quellcodeverzeichnis}
+\renewcommand{\lstlistingname}{Codebeispiel}
+\lstset{
+  backgroundcolor=\color{white},
+  basicstyle=\footnotesize,
+  breakatwhitespace=false,
+  breaklines=true,
+  captionpos=b,
+  commentstyle=\color{green},
+  frame=single,
+  keepspaces=true,
+  keywordstyle=\color{blue},
+  numbers=left,
+  numbersep=5pt,
+  showspaces=false,
+  tabsize=2,
+  xleftmargin=0.1\textwidth,
+  xrightmargin=0.1\textwidth
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\pagenumbering{roman}
+
+\include{chapter/Titel}
+\include{chapter/Abstract}
+
+\tableofcontents
+\cleardoublepage
+\pagenumbering{arabic}
+
+\include{chapter/Einleitung}
+
+\include{chapter/Grundlagen}
+
+\include{chapter/angriffe}
+
+\include{chapter/Gegenmassnahmen}
+
+\include{chapter/Zusammenfassung}
+
+\nocite{BPR}
+\pagenumbering{Roman}
+\bibliography{bib/Literatur}
+%\lstlistoflistings
+\listoffigures
+
+\end{document}
