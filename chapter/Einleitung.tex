@@ -1,30 +1,29 @@
-\chapter{Einleitung}
-\label{ch:Einleitung}
+\chapter{Was ist Hypertext?}
+\label{ch:Was ist Hypertext?}
 
-\begin{section}{Hintergrund}
-\label{sec:hintergrund}
-
-Seit den Snowden Ver"-öffentlichungen ist öffentlich bekannt, dass Massen"-über"-wachung im Internet Heute möglich ist und auch stattfindet. Durch zum Beispiel maniupulierte Pseudozufallsgeneratoren wie der NIST Dual EC DRBG entstehen Backdoors in eigentlich sicheren Übertragungen (\cite{dual}). Diese Ausarbeitung des original Papers Security of Symmetric Encryption against Mass Surveillance von Mihir Bellare, Kenneth G. Paterson und Phillip Rogaway handelt von Algorithm Substitution Attacks, kurz ASAs, als eine spezielle Angriffstechnik gegen symmetrische Verschlüsselungsverfahren. Grundidee hinter einem ASA ist das korrumpieren eines eigentlich sicheren symmetrischen Schemas $\Pi$, durch den Austausch der Verschlüsselugs"-funktion  $\mathcal{E}$ durch eine Subversion $\widetilde{\mathcal{E}}$. Also findet der Angriff nicht von Außen, sondern von Innen statt. Eine solche Subversion soll das Geheimnis in der regulären Übertragung verstecken.
-
-\end{section}
-
-\begin{section}{Big Brother}
+\begin{section}{Was ist Hypertext?}
 \label{sec:big_brother}
 
-Big Brother $(\mathscr{B})$ steht in diesem Paper als Synonym für Regierungen oder Geheimdienste. Wir nehmen an, dass $\mathscr{B}$  durch seine politische und/oder finanzielle Macht in der Lage ist $\mathcal{E}$ gegen eine korrumpiere Subversion $\widetilde{\mathcal{E}}$ auf beliebigen Maschinen auszutauschen. In diesem Angriffsmodell ist $\mathscr{B}$ ein passiver Angreifer, der einen Masterschlüssel $\widetilde{\mathcal{K}}$ hält. Sein Ziel ist es dabei den Ciphertext $\mathcal{C}$ zu entschlüsseln oder mit Hilfe von $\widetilde{\mathcal{K}}$ den symmetrischen Schlüssel $\mathcal{K}$ zu ermitteln und letztendlich auch den Ciphertext $\mathcal{C}$ zu entschlüsseln. Dabei möchte Big Brother immer unentdeckt bleiben.
+Was ist überhaupt Hypertext? Für eine Antwort auf diese Frage kann man sicherlich viele Antworten und Definitionen finden.
 
-\end{section}
+\begin{quote}
+    \glqq [...] Hypertext is an approach to information management in which data is stored in a network of nodes connected by links. Nodes can contain text, graphics, audio, video, as well as source code or other forms of data.\grqq{ }\cite{Smith1988}
+\end{quote}
 
-\begin{section}{Good Guys}
-\label{sec:good_guys}
+\begin{quote}
+    \glqq A footnote is a classical form of a hyperlink. It’s up to the reader to read – as you have just done – or to skip it. In this sense hypertext can be seen as the "generalized footnote", a metaphor taken from Jakob Nielsen’s book Hypertext and Hypermedia.\grqq{ }\cite{Nielsen1990}
+\end{quote}
+ 
+Gemeinsam haben viele, dass ein Hypertext aus diskreten Texten oder Textabschnitten besteht, zwischen denen eine Art Verlinkung existiere. Aber auch Verlinkungen zwischen Medien wie Audio-, Grafik- oder Videodateien können damit beschrieben werden. In diesem Zusammenhang verwendet Ted Nelson auch den Begriff \glqq Hypermedia\grqq{ }\cite{Nelson1965}. Mit der \ref{fig:nielsenLink} zeigt Jakob Nielsen eine vereinfachte Darstellung eines Hypertextes. Anstatt eine feste Reihenfolge gibt es für den Leser mehrere Möglichkeiten die Texte aufzurufen. Nach Text $A$ könne zum Beispiel sofort Text $D$ folgen \cite[S.1]{Nielsen1995}. 
 
-Als Gegenspieler treten in diesen Fall Alice und Bob als Nutzer an. Die Nutzer verwenden ein symmetrisches Verschlüsselungsschema $\Pi$ mit dem symmetrischen Schlüssel $\mathcal{K}$. Dabei möchten sie mögliche korrumpierte Subversionen $\widetilde{\mathcal{E}}$ oder manipulierte $\mathcal{C}$s entdecken. Ziel des Nutzers ist es gegen ASAs resistente Schemen zu finden. So könnten effektiv Angriffe dieser Art verhindern werden.
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{image/nielsenLink}
+	\caption{Vereinfachte Ansicht eines Hypertextes \cite[S.1]{Nielsen1995}}
+	\label{fig:nielsenLink}
+\end{figure}
 
-\end{section}
 
-\begin{section}{Angriffs Ziele}
-\label{sec:angriffs_ziele}
-
-Algorithm Substitution Attacks setzen auf symmetrische Verschlüsselungs"-schemen mit Zufallskomponenten ohne und mit öffentlichen nonce auf. Sie nutzen black-box Verhalten und die nicht Verifizierbarkeit dieser Zufälle. Selbst open source Bibliotheken kann man in der realen Welt ein gewisses black-box Verhalten zuschreiben, denn außer wenigen Entwicklern setzt sich kaum jemand mit den konkreten Implementierungen auseinander. In dem Originalwerk wird gezeigt, dass fast alle symmetrischen Verschlüsselungsverfahren angreifbar sind.
+Auch viel später - 1995 - beschrieb Jakob Nielsen in dem Buch Multimedia and Hpertext: The Internet and Beyond, ein Hypertext-System ganz ähnlich: \glqq The simplest way to define hypertext is to contrast it with traditional text like a book. All traditional text, whether in printed form or in computer files, is sequential, meaning that there is a single linear sequence defining the order in which the text is to be read. [...] Hypertext is nonsequential; there is no single order that determines the sequence in which the text is to be read. [...]\grqq{ }\cite[S.1]{Nielsen1995}. Er beschrieb allerdings ein Hypertext-System als gänzlich ohne sequentielle Reihenfolge. Buchs \glqq trails\grqq{ }würden durch sogenannte \glqq trail blazers\grqq{ }erstellt\cite[S.35]{Nielsen1995}.
 
 \end{section}

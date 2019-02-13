@@ -1,14 +1,17 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Hauptdokument.aux
-The style file: alpha.bst
+The style file: apalike.bst
 A level-1 auxiliary file: chapter/Titel.aux
 A level-1 auxiliary file: chapter/Abstract.aux
 A level-1 auxiliary file: chapter/Einleitung.aux
-A level-1 auxiliary file: chapter/Grundlagen.aux
-A level-1 auxiliary file: chapter/angriffe.aux
-A level-1 auxiliary file: chapter/Gegenmassnahmen.aux
+A level-1 auxiliary file: chapter/Geschichtliche.aux
+A level-1 auxiliary file: chapter/Systeme.aux
+A level-1 auxiliary file: chapter/Nutzung.aux
+A level-1 auxiliary file: chapter/Technik.aux
 A level-1 auxiliary file: chapter/Zusammenfassung.aux
 Database file #1: bib/Literatur.bib
-Warning--empty journal in GBPG
-Warning--empty journal in BPR
-Warning--empty journal in BJK
-(There were 3 warnings)
+Warning--I didn't find a database entry for "GBPG"
+Warning--I didn't find a database entry for "BJK"
+Warning--I didn't find a database entry for "praesi"
+Warning--I didn't find a database entry for "BPR"
+Warning--empty journal in Smith1988
+(There were 5 warnings)

@@ -1,35 +1,47 @@
-\begin{thebibliography}{MB14b}
+\begin{thebibliography}{}
 
-\bibitem[EJG03]{GBPG}
-Benny Pinkas und Philippe~Golle Eu-Jin~Goh, Dan~Boneh.
-\newblock The design and implementation of protocol-based hidden key recovery.
-\newblock 2003.
+\bibitem[Bush, 1945]{Bush1945}
+Bush, V. (1945).
+\newblock As we may think.
+\newblock {\em The Atlantic Monthly}.
 
-\bibitem[GG13]{Guard}
-Ewen~MacAskill Glenn~Greenwald.
-\newblock Nsa prism program taps in to user data of apple, google and others.
-\newblock {\em The Guardian}, 06 2013.
+\bibitem[Engelbart, 1968]{MotherOfDemo1968}
+Engelbart, D. (1968).
+\newblock Fall Joint Computer Conference, San Francisco.
 
-\bibitem[MB14a]{BPR}
-Kenneth G. Paterson und Phillip~Rogaway Mihir~Bellare.
-\newblock Security of symmetric encryption against mass surveillance.
-\newblock 8616:1--19, 2014.
+\bibitem[Engelbart, 1962]{Engelbart1962}
+Engelbart, D.~C. (1962).
+\newblock Augmenting human intellect a conceptual framework.
+\newblock {\em SRI Summary Report AFOSR-3223}.
 
-\bibitem[MB14b]{praesi}
-Phillip~Rogaway Mihir~Bellare, Kenneth G.~Paterson.
-\newblock Security of symmetric encryption against mass surveillance.
-\newblock \url{https://www.youtube.com/watch?v=rg-Trmi17T8} und Crypto 2014, 10
-  2014.
+\bibitem[Engelbart, 1984]{Engelbart1984}
+Engelbart, D.~C. (1984).
+\newblock Authorship provisions in augment.
+\newblock {\em Proceedings of the COMPCON Conference, San Francisco}.
 
-\bibitem[MB15]{BJK}
-Daniel~Kane Mihir~Bellare, Joseph~Jaeger.
-\newblock Mass-surveillance without the state: Strongly undetectable
-  algorithm-substitution attacks.
-\newblock 08 2015.
+\bibitem[Life, 1945]{Life1945}
+Life (1945).
+\newblock As we may think.
+\newblock {\em Life Magazine}.
 
-\bibitem[Sch07]{dual}
-Bruce Schneier.
-\newblock Did nsa put a secret backdoor in new encryption standard?
-\newblock {\em WIRED Business}, 11 2007.
+\bibitem[Nelson, 1965]{Nelson1965}
+Nelson, T.~H. (1965).
+\newblock A file structure for the complex, the changing, and the
+  indeterminate.
+\newblock {\em Vassar College Poughkeepsie, N.Y.}
+
+\bibitem[Nielsen, 1990]{Nielsen1990}
+Nielsen, J. (1990).
+\newblock {\em Hypertext and Hypermedia}.
+\newblock Academic Press, Boston, MA.
+
+\bibitem[Nielsen, 1995]{Nielsen1995}
+Nielsen, J. (1995).
+\newblock {\em Multimedia and Hypertext: The Internet and Beyond}.
+\newblock Academic Press, Boston, MA.
+
+\bibitem[Smith and Weiss, 1988]{Smith1988}
+Smith, J.~B. and Weiss, S.~F. (1988).
+\newblock Hypertext.
 
 \end{thebibliography}
