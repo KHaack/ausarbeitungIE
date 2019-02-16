@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.18)  16 FEB 2019 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.18)  16 FEB 2019 18:41
 entering extended mode
 **./Hauptdokument.tex
 (Hauptdokument.tex
@@ -822,8 +822,11 @@ Package scrhack Info: redefining \lstlistoflistings on input line 137.
 Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
 (Hauptdokument.aux (chapter/Titel.aux) (chapter/Abstract.aux)
-(chapter/Einleitung.aux) (chapter/Geschichtliche.aux) (chapter/Systeme.aux)
-(chapter/Nutzung.aux) (chapter/Zusammenfassung.aux))
+(chapter/Einleitung.aux) (chapter/Geschichtliche.aux
+
+LaTeX Warning: Label `sec:lostInHyperspace' multiply defined.
+
+) (chapter/Systeme.aux) (chapter/Zusammenfassung.aux))
 \openout1 = `Hauptdokument.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -1039,7 +1042,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 4.
-<image/nielsenLink.png, id=62, 452.892pt x 207.174pt>
+<image/nielsenLink.png, id=54, 452.892pt x 207.174pt>
 File: image/nielsenLink.png Graphic file (type png)
 <use image/nielsenLink.png>
 Package pdftex.def Info: image/nielsenLink.png  used on input line 21.
@@ -1076,7 +1079,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<image/memex.png, id=88, 435.42674pt x 298.11375pt>
+<image/memex.png, id=80, 435.42674pt x 298.11375pt>
 File: image/memex.png Graphic file (type png)
 <use image/memex.png>
 Package pdftex.def Info: image/memex.png  used on input line 14.
@@ -1099,7 +1102,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 ]
-<image/mother.png, id=104, 1156.32pt x 609.477pt>
+<image/mother.png, id=96, 1156.32pt x 609.477pt>
 File: image/mother.png Graphic file (type png)
 <use image/mother.png>
 Package pdftex.def Info: image/mother.png  used on input line 38.
@@ -1126,7 +1129,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 51.
  [5 <./image/mother.png>]
-<image/dangle.png, id=131, 452.892pt x 207.174pt>
+<image/dangle.png, id=123, 452.892pt x 207.174pt>
 File: image/dangle.png Graphic file (type png)
 <use image/dangle.png>
 Package pdftex.def Info: image/dangle.png  used on input line 54.
@@ -1150,7 +1153,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 71.
 [6 <./image/dangle.png>]
-<image/hes.jpg, id=151, 688.0104pt x 529.0164pt>
+<image/hes.jpg, id=143, 688.0104pt x 529.0164pt>
 File: image/hes.jpg Graphic file (type jpg)
 <use image/hes.jpg>
 Package pdftex.def Info: image/hes.jpg  used on input line 80.
@@ -1182,6 +1185,15 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 93.
  [8]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 93.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 93.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 93.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 93.
+ [9]
 \openout2 = `chapter/Systeme.aux'.
 
  (chapter/Systeme.tex
@@ -1203,41 +1215,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 95.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 95.
- [9
-
-
-
-
-]
-\openout2 = `chapter/Nutzung.aux'.
-
- (chapter/Nutzung.tex
-chapter 4.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 4.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 4.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 11.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 11.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 18.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 18.
-)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 97.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 97.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 97.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 97.
  [10
 
 
@@ -1247,61 +1224,65 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout2 = `chapter/Zusammenfassung.aux'.
 
  (chapter/Zusammenfassung.tex
-chapter 5.
+chapter 4.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 97.
  [11
 
 
 
 
 ] (Hauptdokument.bbl
-chapter 6.
+chapter 5.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 103.
  [12
 
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (Hauptdokument.aux (chapter/Titel.aux) (chapter/Abstract.aux)
 (chapter/Einleitung.aux) (chapter/Geschichtliche.aux) (chapter/Systeme.aux)
-(chapter/Nutzung.aux) (chapter/Zusammenfassung.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+(chapter/Zusammenfassung.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Hauptdokument.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 20859 strings out of 492973
- 367362 string characters out of 3135935
- 574131 words of memory out of 3000000
- 24443 multiletter control sequences out of 15000+200000
+ 20841 strings out of 492973
+ 367007 string characters out of 3135935
+ 573530 words of memory out of 3000000
+ 24434 multiletter control sequences out of 15000+200000
  574017 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,77p,9115b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1312,9 +1293,9 @@ mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb>
-Output written on Hauptdokument.pdf (15 pages, 2704908 bytes).
+Output written on Hauptdokument.pdf (15 pages, 2703804 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

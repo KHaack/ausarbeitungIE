@@ -78,7 +78,7 @@
 @Book{Dam1969,
   title  = {Manual for the Edit Phase of the Hypertext Editing System, for the IBM System/360 Model 50},
   year   = {1969},
-  author = {Andries Van Dam},
+  author = {Andries van Dam},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
