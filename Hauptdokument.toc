@@ -6,8 +6,8 @@
 \contentsline {section}{\numberline {2.1}NLS und AUGMENT}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Problem: Dangling edges}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}HES}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Problem: Lost in Hyperspace}{7}{section.2.4}
-\contentsline {section}{\numberline {2.5}Fress}{8}{section.2.5}
+\contentsline {section}{\numberline {2.4}Fress}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Problem: Lost in Hyperspace}{8}{section.2.5}
 \contentsline {chapter}{\numberline {3}Systeme}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Document Examiner}{9}{section.3.1}
 \contentsline {chapter}{\numberline {4}Nutzung}{10}{chapter.4}
