@@ -24,6 +24,11 @@ Life (1945).
 \newblock As we may think.
 \newblock {\em Life Magazine}.
 
+\bibitem[Lloyd, ]{Lloyd1969}
+Lloyd, G.
+\newblock Photo of the hypertext editing system (hes) console in use at brown
+  university.
+
 \bibitem[Nelson, 1965]{Nelson1965}
 Nelson, T.~H. (1965).
 \newblock A file structure for the complex, the changing, and the
@@ -43,5 +48,15 @@ Nielsen, J. (1995).
 \bibitem[Smith and Weiss, 1988]{Smith1988}
 Smith, J.~B. and Weiss, S.~F. (1988).
 \newblock Hypertext.
+
+\bibitem[van Dam, 1969]{Dam1969}
+van Dam, A. (1969).
+\newblock {\em Manual for the Edit Phase of the Hypertext Editing System, for
+  the IBM System/360 Model 50}.
+
+\bibitem[van Dam, 1988]{Dam1988}
+van Dam, A. (1988).
+\newblock Hypertext '87 keybite address.
+\newblock {\em Communications of the ACM}.
 
 \end{thebibliography}
