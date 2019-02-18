@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.18)  18 FEB 2019 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.18)  18 FEB 2019 16:04
 entering extended mode
 **./Hauptdokument.tex
 (Hauptdokument.tex
@@ -1242,29 +1242,33 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 139.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 [11 <./image/candidates.png>]
-<image/layer.png, id=212, 540.21825pt x 482.40225pt>
+<image/layer.png, id=217, 540.21825pt x 482.40225pt>
 File: image/layer.png Graphic file (type png)
 <use image/layer.png>
-Package pdftex.def Info: image/layer.png  used on input line 160.
+Package pdftex.def Info: image/layer.png  used on input line 146.
 (pdftex.def)             Requested size: 358.50229pt x 320.1457pt.
-)
+<image/hypercardLink.png, id=220, 212.59425pt x 240.29774pt>
+File: image/hypercardLink.png Graphic file (type png)
+<use image/hypercardLink.png>
+Package pdftex.def Info: image/hypercardLink.png  used on input line 153.
+(pdftex.def)             Requested size: 358.50229pt x 405.27777pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 96.
- [12 <./image/document.png>]
+(babel)             in language  on input line 159.
+ [12 <./image/document.png>])
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 96.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1274,6 +1278,15 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 96.
  [13 <./image/layer.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 96.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 96.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 96.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 96.
+ [14 <./image/hypercardLink.png>]
 \openout2 = `chapter/Zusammenfassung.aux'.
 
  (chapter/Zusammenfassung.tex
@@ -1291,7 +1304,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 98.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 98.
- [14
+ [15
 
 
 
@@ -1302,7 +1315,19 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 87.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 87.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 87.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 87.
+[16
+
+
+
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 104.
@@ -1312,11 +1337,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 104.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 104.
- [15
-
-
-
-]
+ [17]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
  (Hauptdokument.aux (chapter/Titel.aux) (chapter/Abstract.aux)
 (chapter/Einleitung.aux) (chapter/Geschichtliche.aux)
@@ -1328,13 +1349,13 @@ Package rerunfilecheck Info: File `Hauptdokument.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 21040 strings out of 492973
- 369527 string characters out of 3135935
- 578104 words of memory out of 3000000
- 24624 multiletter control sequences out of 15000+200000
+ 21053 strings out of 492973
+ 369756 string characters out of 3135935
+ 578388 words of memory out of 3000000
+ 24631 multiletter control sequences out of 15000+200000
  574330 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,77p,9115b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,9n,77p,9115b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
@@ -1342,9 +1363,9 @@ mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmssbx10.pfb>
-Output written on Hauptdokument.pdf (18 pages, 3753727 bytes).
+Output written on Hauptdokument.pdf (20 pages, 4017606 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 337 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

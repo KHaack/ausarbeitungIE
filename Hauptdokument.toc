@@ -10,5 +10,5 @@
 \contentsline {section}{\numberline {2.5}Problem: Lost in Hyperspace}{9}{section.2.5}
 \contentsline {section}{\numberline {2.6}Document Examiner}{10}{section.2.6}
 \contentsline {section}{\numberline {2.7}HyperCard}{11}{section.2.7}
-\contentsline {chapter}{\numberline {3}Zusammenfassung}{14}{chapter.3}
-\contentsline {chapter}{\numberline {4}Literaturverzeichnis}{15}{chapter.4}
+\contentsline {chapter}{\numberline {3}Zusammenfassung}{15}{chapter.3}
+\contentsline {chapter}{\numberline {4}Literaturverzeichnis}{16}{chapter.4}

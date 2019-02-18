@@ -139,21 +139,7 @@ Die Inhalte in Document Examiner sind in sogenannte \glqq Records\grqq{ }unterte
 \begin{section}{HyperCard}
 \label{sec:hypercard}
 
-Während der achtziger Jahre 
-HyperCard uses a cards metaphor. Each card has the same size to fit on the original 9" Macintosh screen.
-The stack provides a standard order for the cards and even without any hyperlinks the user is able to flip through the cards of the stacks.
-
-the cards are always organized in stacks. As a consequence windows play a marginal role in HyperCard. Just one main window shows the front most card of a stack. 
-
-1987
-Bill Atkinson hat HyperCARD zu erst nicht als Hypertext-System entwickelt. Eigentlich sollte es ein grafische Programmierumgebung werden. 
-Populär weil es kostenlos auf jedem Macintosh war (von 1987 bis 1992).
-
-he cards are organized in stacks where the user can flip through. The hypertext functionality comes in as HyperCard is combined with HyperTalk, an easy to learn programming language. 
-Beinhaltet Programmiersprache HyperTalk, die einfach zu lernen sein soll. Innerhalb von zwei Tagen zu erlernen (Nielsen 1991)
-
-
-Cards are made up of three layers. The background layer is the canvas for the cards. It contains basic artwork that is common for the cards of a stack. The foreground layer contains the text and individual illustrations. The buttons layer is on top of the foreground layer. It can contain active regions that trigger scripts written in HyperTalk (siehe Abbildung \ref{fig:layer}).
+Während der achtziger Jahre arbeitete Bill Atkinson für Apple Computers und entwickelte mit an dem 1987 veröffentlichtem HyperCard. HyperCard ist ein System zum Entwickeln von Hypertextdokumenten und zugleich zur Entwicklung von grafischen Oberfläche. Das Hauptziel des System war es Lernen einfach zu gestalten \cite{Nielsen1991}. Grundlegend besteht HyperCard aus zwei Sub-Systeme, zum Einen die Grafische Oberfläche und zum Anderen die HyperTalk Programmiersprache. Es gibt unter anderem fünf basis Element: Stacks, Backgrounds, Cards, Fields, Buttons \cite{Goodman1988}. HyperCard macht sich in vielen Punkten die Karteikarten Metapher zunutze. Alle Informationen sind gleich Strukturiert und passen genau auf eine \glqq Card\grqq{ }. Diese Card passt genau auf einen 9" Macintosh Bildschirm und in ein einen \glqq Stack\grqq{ }einsortiert. Der Nutzer kann in dieser Standardanordnung von Cards blättern auch ohne Hyperlinks zu verwenden. Die eigentliche Hypertextfunktionalität kommt erst in Kombination mit der Programmiersprache HyperTalk \cite{Goodman1988}, \cite{Nielsen1991}. Eine Card war - vereinfacht gesagt - aus drei Schichten aufgebaut (Siehe Abbildung \ref{fig:layer}). Der \glqq Background Layer\grqq{ }der den gemeinsamen Hintergrund für alle Cards auf dem Stack zeigt. Der \glqq Forground Layer\grqq{ }der den Text, sowie Illustration für diese Card beinhaltet. Der \glqq Button Layer\grqq{ }der aktive Regionen enthält, die HyperTalk Skripte triggern können \cite{Nielsen1995}.
 
 \begin{figure}[!ht]
 	\centering
@@ -161,5 +147,14 @@ Cards are made up of three layers. The background layer is the canvas for the ca
 	\caption{Vereinfachte Ansicht der HyperCard Layer \cite{Nielsen1995}.}
 	\label{fig:layer}
 \end{figure}
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{image/hypercardLink}
+	\caption{Ein Beispiel für einen Monat, dargestellt als Card in HyperCard. Beim Klick auf eine Woche wird die entsprechende Card im Termin Stack geöffnet \cite{Goodman1988}.}
+	\label{fig:hypercardLink}
+\end{figure}
+
+Verlinkungen wurden HyperCard mit HyperTalk implementiert. Ein Beispiel hierfür ist auf der Abbildung \ref{fig:hypercardLink} zusehen. In diesem Beispiel wurde der Hintergrund \glqq Six Monthly\grqq{ }gewählt. Beim Klicken auf eine Woche bestimmt das HyperTalk Skript auf welche Woche geklickt wurde und leitet den Nutzer auf die entsprechende Wochenkarte weiter. Es könnten aber auch weitere Berechnungen und Bedingungen die Verlinkung beeinflussen \cite{Goodman1988}, so konnten beliebig komplexe Hypertext entstehen. Ein solcher Link war allerdings immer nur unidirektional, ein Skript auf der Zielkarte konnte aber eine Link zurück anbieten. HyperCard identifiziert seine Cards mit der Position innerhalb eines Stacks. Das Problem ist hierbei (wie in Abschnit \ref{sec:dangling} beschrieben), dass wenn man zum Beispiel Card zwei in einem Stack löscht, rücken alle späteren Cards nach \cite{Goodman1988}. Allerdings bot HyperCard noch eine andere Möglichkeit auf Cards zu referenzieren. Jede Card erhielt bei der Erstellung eine eindeutige Card ID, keine andere Card in dem Stack konnte diese ID haben. Selbst wenn eine Card gelöscht wurde, wurde die ID nicht erneut vergeben. So konnte zumindest nicht auf eine falsche Card verlinkt werden \cite{Goodman1988}.
 
 \end{section}

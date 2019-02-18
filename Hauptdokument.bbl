@@ -23,6 +23,18 @@ Engelbart, D.~C. (1984).
 \newblock Authorship provisions in augment.
 \newblock {\em Proceedings of the COMPCON Conference, San Francisco}.
 
+\bibitem[Goodman, 1988]{Goodman1988}
+Goodman, D. (1988).
+\newblock {\em The complete HyperCard Handbook}.
+\newblock Bantam Books, second edition.
+
+\bibitem[Jakob~Nielsen, 1991]{Nielsen1991}
+Jakob~Nielsen, Ida~Frehr, H. O.~N. (1991).
+\newblock The learnability of haypercard as an object-oriented programming
+  system.
+\newblock {\em Technical University of Denmark, Department of Computer
+  Science}.
+
 \bibitem[Life, 1945]{Life1945}
 Life (1945).
 \newblock As we may think.
