@@ -5,6 +5,10 @@ Bush, V. (1945).
 \newblock As we may think.
 \newblock {\em The Atlantic Monthly}.
 
+\bibitem[Conklin, 1987]{Conklin1987}
+Conklin, J. (1987).
+\newblock Hypertext: An intriduction and survey.
+
 \bibitem[Engelbart, 1968]{MotherOfDemo1968}
 Engelbart, D. (1968).
 \newblock Fall Joint Computer Conference, San Francisco.
@@ -63,5 +67,9 @@ van Dam, A. (1969).
 van Dam, A. (1988).
 \newblock Hypertext '87 keybite address.
 \newblock {\em Communications of the ACM}.
+
+\bibitem[Walker, 1987]{Walker1987}
+Walker, J.~H. (1987).
+\newblock Document examiner: Delivery interface for hypertext documents.
 
 \end{thebibliography}
