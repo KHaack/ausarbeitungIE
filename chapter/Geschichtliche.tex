@@ -7,14 +7,16 @@ In der Geschichte von Hypertext sind viele verschiedene Konzepte und Systeme ent
 	\glqq Consider a future device for individual use, which is a sort of mechanized private file and library. It needs a name, and to coin one at random, memex will do. A memex is a device in which an individual stores all his books, records, and communications, and which is mechanized so that it may be consulted with exceeding speed and flexibility.\grqq{ }\cite[Section 6]{Bush1945}.
 \end{quote}
 
-Im Jahr 1945 wurde \glqq As we may think\grqq{ }von Vannevar Bush veröffentlicht. Mit dem Konzept \glqq Memex\grqq{ } erdachte Vannevar Bush eine Maschine für die individuellen Verwendung - eine private, mechanisierte Bibliothek. Die Abbildung \ref{fig:memex} zeigt eine Illustration aus dem Life Magazine 1945. Wenn der Nutzer ein bestimmtes Buch aufrufen möchte, könne er einen Code in das Keyboard eintippen und die Titelseite erscheint als Projektion \cite[S.121]{Life1945} \cite[Section 6]{Bush1945}. In in diesem Konzept könne der Nutzer einen sogenannten \glqq main trail\grqq{ }aus Dokumenten erstellen. Dieser Trail solle eine Kombination aus Dokumenten sein, die aus der Perspektive des Nutzers von Interesse ist. Mit sogenannten \glqq side tails\grqq{ }könne der Nutzer ein Main Trail mit anderen Dokumenten \glqq verlinkt\grqq{ }\cite[Section 7]{Bush1945}. Diese Trails könnten als erstes Konzept von Hyperlinks verstanden werden. Zwei Jahrzehnte nach der Veröffentlichung von \glqq As we may think\grqq{ }, in der 1960er Jahren, wurde der erst der Begriff Hypertext von Ted Nelson geprägt. 
+Im Jahr 1945 wurde \glqq As we may think\grqq{ }von Vannevar Bush veröffentlicht. Mit dem Konzept \glqq Memex\grqq{ } erdachte Vannevar Bush eine Maschine für die individuellen Verwendung - eine private, mechanisierte Bibliothek. Die Abbildung \ref{fig:memex} zeigt eine Illustration aus dem Life Magazine 1945. Wenn der Nutzer ein bestimmtes Buch aufrufen möchte, könne er einen Code in das Keyboard eintippen und die Titelseite erscheint als Projektion \cite[S.121]{Life1945} \cite[Section 6]{Bush1945}. 
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{image/memex}
+	\includegraphics[width=0.7\textwidth]{image/memex}
 	\caption{\glqq Memex in the form of a desk would instantly bring files and material on any subject to the operator's fingertips. [...] At left is a mechanism which automatically photographs longhead notes, pictures and letters, then files them in the desk for future reference\grqq{ } \cite[S.123]{Life1945}}
 	\label{fig:memex}
 \end{figure}
+
+In in diesem Konzept könne der Nutzer einen sogenannten \glqq main trail\grqq{ }aus Dokumenten erstellen. Dieser Trail solle eine Kombination aus Dokumenten sein, die aus der Perspektive des Nutzers von Interesse ist. Mit sogenannten \glqq side tails\grqq{ }könne der Nutzer ein Main Trail mit anderen Dokumenten \glqq verlinkt\grqq{ }\cite[Section 7]{Bush1945}. Diese Trails könnten als erstes Konzept von Hyperlinks verstanden werden. Zwei Jahrzehnte nach der Veröffentlichung von \glqq As we may think\grqq{ }, in der 1960er Jahren, wurde der erst der Begriff Hypertext von Ted Nelson geprägt. 
 
 \begin{quote}
 	\glqq Let me introduce the word hypertext to mean a body of written or pictorial material interconnected in such a complex way that it could not conveniently be presented or represented on paper. It may contain summaries, or maps of its contents and theier interrelations; it may contain annotations, additions and footnotes from scholars who have examined it. [...]\grqq{ }\cite{Nelson1965}
@@ -49,10 +51,7 @@ Gezeigt wurden aber auch die Hypertext Funktionalitäten, Dokumente seien verkn�
 
 Allerdings wäre Vannevar Bush bei einer Realisierung der Memex wahrscheinlich auf das gleiche Problem gestoßen wie Doug Engelbart. Ein Hypertext ist vergleichbar mit einem Graphen aus Nodes und Edges. Ein Text könnte ein Node sein und eine Verlinkungen zwischen zwei Texten ist eine Edge zwischen zwei Nodes. Durch entfernen von Nodes können \glqq dangling edges\grqq{ }entstehen. Die Abbildung \ref{fig:dangle} zeigt zum Beispiel durch das Entfernen des Textes $D$ zwei entstandenen Dangling Edges von $A$ und $E$. Bei NLS konnte durch das Bearbeiten der Dokumente oder Statements Dangling Edges entstehen. Dies könnte durch die verschiedenen Adressiermöglichkeiten zumindest eingedämmt werden \cite{Engelbart1984}.
 
-\hl{Je nachdem wer die Sachen bearbeitet, wird diese Problem erst relevant}
-\hl{In most cases so far, the people building the delivery interface are also the people creating the underlying information structure that it is delivering.}
-
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{image/dangle}
 	\caption{Modifizierte Darstellung von Nielsen, zur Darstellung von zweier Dangling Edges \cite[S.1]{Nielsen1995}.}
@@ -60,6 +59,9 @@ Allerdings wäre Vannevar Bush bei einer Realisierung der Memex wahrscheinlich a
 \end{figure}
 
 \end{section}
+
+\hl{Je nachdem wer die Sachen bearbeitet, wird diese Problem erst relevant}
+\hl{In most cases so far, the people building the delivery interface are also the people creating the underlying information structure that it is delivering.}
 
 \begin{section}{HES}
 \label{sec:hes}
@@ -72,25 +74,36 @@ Ebenfalls in dem 1960er Jahren wurde an der Brown Universität, im US-amerikanis
 
 Texte konnten in HES in separate Sektionen unterteilt werden. Grundlegend gab es zwei verschiedene Verlinkungen in HES, \glqq Links\grqq{ }und \glqq Brachnes\grqq{ }. Branches wurden organisiert im Branch Menü oder waren im späteren Ausdruck als Fußnoten zu sehen. Links konnten optional vom Nutzer besucht werden. Beide waren im Text markiert mit einem Sternchen (*) und zeigten einen sogenannten Explainer als Vorschau an. Der Explainer eines Links tauchte in der Annotaion Area auf, der Branch Explainer wurde in-line beim Branch Sternchen angezeigt. Der Nutzer konnte Sektionen mit dem Lightpen auswählen und einem einzigartigem Label versehen. Dieses Label wurde dann in eine Label Tabelle eingetragen werden und konnten mit dem Befehl besucht werden und als Pointer in einem Text verwendet werden \cite{Dam1969}. Die Texte selbst waren sogenannte Instanzen und wurden unidirektional verlinkt. Die Bearbeitung selbst sei mehr eine Pointer Manipulation als Text Manipulation gewesen \cite[S. 890]{Dam1988}.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{image/hes}
+	\caption{Foto einer von HES in der Brown Universität \cite{Lloyd1969}.}
+	\label{fig:hes}
+\end{figure}
+
 \begin{quote}
 \glqq Instances are references, so that if you changed, for example, a piece of legal boilerplate that was referenced in multiple places, the change would show up in all the places that referenced it. \grqq{ }\cite{Dam1988}
 \end{quote}
 
 Dem Nutzer war die Möglichkeit gegeben, nach dem Drücken eines \glqq Function Keys\grqq{ }mit dem Lightpen einen Link zu berühren und so dem Link zu folgen \cite[S.23]{Dam1969}. Wie auch das NLS unterstützte die Textbearbeitung Funktionen wie Insert, Delete, Move and Copy \cite[S.10-14]{Dam1969}, \cite[S. 889]{Dam1988}. Beim entfernen vom Text entstanden keine Dangling Edges, wie in Abschnitt \ref{sec:dangling} beschrieben. Jeder Link oder Branch der auf die gelöschte Sektion zeigt wird ebenfalls gelöscht \cite[S.12]{Dam1969}.
 
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.9\textwidth]{image/hes}
-	\caption{Foto einer von HES in der Brown Universität \cite{Lloyd1969}.}
-	\label{fig:hes}
-\end{figure}
+\hl{key set}
 
 \end{section}
 
 \begin{section}{FRESS}
 \label{sec:fress}
 	
-1968 startete van Dam zusammen mit seinen Stunden die Entwicklung von \glqq a File Retrieval and Editing System\grqq{ }(FRESS). Inspiriert von Doug Engelbart sollte FRESS die besten Ideen von NLS und HES vereinen \cite[S.887 und 890]{Dam1988}. FRESS sollte auch auf verbreiteten kommerziellen Systemen laufen. Van Dam zufolge sei FRESS das erste System gewesen, dass eine UNDO Funktion unterstützte. Jede Bearbeitung wurde in einener Schattenversion gespeichert und erlaubte so ein Autosave und ein UNDO \cite[S.891]{Dam1988}. Im Gegensatz zum Vorgänger unterstützte FRESS bidirektionale Links, so genannte \glqq Jumps\grqq{ }. Aber weiterhin gab es auch on-way Links, die sogenannten \glqq Tags\grqq{ }. Paul Delany und George P. Landow schrieben hierzu: \glqq FRESS had two types of links - indicated a connection to a single element such as an annotation, definition, or footnote. When the reader pointed to a tag with a light pen, the associated text appeared in another window on the screen for reference while the reader remained in the main document. Unlinke a tag, a jump - a bidirectional link - indicated a path to another document. By following a jump, the reader was transferred from one document to another, and up to seven windows could be used to display documents simultaneously. \grqq{ }\cite[S.68]{GeorgeLandow1995}. FRESS unterstütze so den Nutzer beim Navigieren durch die Links, außerdem konnte so der Autor, wie schon bei der Memex angedacht, eine Art Main Track oder Side Tracks erstellen. Im Text wurden die \glqq cross-reference markers\grqq{ }angezeigt, diese zeigten dem Nutzer alle Verlinkungen an und gaben dem Leser einen \glqq Backtrack\grqq{ }durch seine besuchten Links. Links waren in FRESS eigene Objekte und nicht mehr einfach Teile eines Textes. Es sei möglich gewesen Links zu typisieren oder zu labeln, indem man sie mit \glqq key words\grqq{ }versehe \cite[S.891]{Dam1988}. Das System wurde auf Grund des hohen Funktionsumfang nicht fertig gestellt, van Dam schrieb \glqq It was overkill, and we haven’t done it since, but it certainly was interesting.\grqq{ }\cite[S.891]{Dam1988}.
+1968 startete van Dam zusammen mit seinen Stunden die Entwicklung von \glqq a File Retrieval and Editing System\grqq{ }(FRESS). Inspiriert von Doug Engelbart sollte FRESS die besten Ideen von NLS und HES vereinen \cite[S.887 und 890]{Dam1988}. FRESS sollte auch auf verbreiteten kommerziellen Systemen laufen. Van Dam zufolge sei FRESS das erste System gewesen, dass eine UNDO Funktion unterstützte. Jede Bearbeitung wurde in einener Schattenversion gespeichert und erlaubte so ein Autosave und ein UNDO \cite[S.891]{Dam1988}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{image/augment}
+	\caption{Engelbart an einer NLS/Augment Workstation. Das Key Set unter seiner linken Hand und die Maus unter seiner rechten Hand. \cite{Conklin1987}.}
+	\label{fig:augment}
+\end{figure}
+
+Im Gegensatz zum Vorgänger unterstützte FRESS bidirektionale Links, so genannte \glqq Jumps\grqq{ }. Aber weiterhin gab es auch on-way Links, die sogenannten \glqq Tags\grqq{ }. Paul Delany und George P. Landow schrieben hierzu: \glqq FRESS had two types of links - indicated a connection to a single element such as an annotation, definition, or footnote. When the reader pointed to a tag with a light pen, the associated text appeared in another window on the screen for reference while the reader remained in the main document. Unlinke a tag, a jump - a bidirectional link - indicated a path to another document. By following a jump, the reader was transferred from one document to another, and up to seven windows could be used to display documents simultaneously. \grqq{ }\cite[S.68]{GeorgeLandow1995}. FRESS unterstütze so den Nutzer beim Navigieren durch die Links, außerdem konnte so der Autor, wie schon bei der Memex angedacht, eine Art Main Track oder Side Tracks erstellen. Im Text wurden die \glqq cross-reference markers\grqq{ }angezeigt, diese zeigten dem Nutzer alle Verlinkungen an und gaben dem Leser einen \glqq Backtrack\grqq{ }durch seine besuchten Links. Links waren in FRESS eigene Objekte und nicht mehr einfach Teile eines Textes. Es sei möglich gewesen Links zu typisieren oder zu labeln, indem man sie mit \glqq key words\grqq{ }versehe \cite[S.891]{Dam1988}. Das System wurde auf Grund des hohen Funktionsumfang nicht fertig gestellt, van Dam schrieb \glqq It was overkill, and we haven’t done it since, but it certainly was interesting.\grqq{ }\cite[S.891]{Dam1988}.
 
 \end{section}
 
@@ -116,20 +129,20 @@ Die ersten Hypertext-Systeme wie NLS und FRESS haben gezeigt, dass Hypertext nic
 \glqq The most fundamental decision in the interface was to make the material that a person was reading look essentially as it would in a paper book. The reason for doing this was "ease of use". We saw no reason to have the underlying information structure be reflected in the user interface model unless that structure was a good model for interacting with information. My experience in trying to help users with a tree-structured information interface [...] led me to believe that a book-like interface would be more palatable for many people. \grqq{ }\cite{Walker1987}
 \end{quote}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{image/document}
+	\caption{Userinterface von Document Examiner. Zeigt die vier Abschnitte: Content Area, Bookmark Pane, Candidates Pane und Command Region \cite{Walker1987}.}
+	\label{fig:ducument}
+\end{figure}
+
 Document Examiner wurde als \glqq window-based\grqq{ }bezeichnet, wie auf Abbildung \ref{fig:ducument} zusehen, unterteilen die Windows die Anwendung in vier Abschnitte. Die Conent Area, zum Anzeigen des Inhalts. Die Bookmark Pane, enthält eine chronologische Aufzählung der Records, die der Benutzer gelesen hat. Die Command Pane, die dem Nutzer es ermöglicht Befehle abzusetzen \cite{Walker1987}. Die Candidates Pane, enthält die vom Nutzer zusammengestellten Records, die noch zu lesen sind. Die Liste der Candidates war wie ein Suchergebnis, der Nutzer konnte einen Befehl absetzen, mit dem er nach Bestimmten Begriffen im Titel oder in den Keywords suchen konnte. Abbildung \ref{fig:candidates} zeigt eine Suchanfrage und das Ergebnis eines solchen Befehls.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{image/candidates}
 	\caption{Zeigt die vorgeschlagenen Records, die mit dem Befehl $show candidates$ gesucht wurden \cite{Walker1987}.}
 	\label{fig:candidates}
-\end{figure}
-
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.9\textwidth]{image/document}
-	\caption{Userinterface von Document Examiner. Zeigt die vier Abschnitte: Content Area, Bookmark Pane, Candidates Pane und Command Region \cite{Walker1987}.}
-	\label{fig:ducument}
 \end{figure}
 
 Die Inhalte in Document Examiner sind in sogenannte \glqq Records\grqq{ }unterteilt, jeder Record hat eine eindeutige ID, einen Namen und ein Typ. Die Records sind unidirektional mit anderen Records verlinkt. Diese Verlinkung kann entweder ganze Records verlinken oder verlinkt eine Stelle im Text mit einem anderen Record. Durch die verwendete Buch Metapher ist die ganze Dokumentation in Kapitel, Abschnitte und Unterabschnitte unterteilt \cite{Walker1987}, hintereinander gelesen ergeben die Records, analog zur Memex, einen Main Trail und weitere Verlinkungen sind Side Trails. Das Problem der Dangling Edges (aus Abschnitt \ref{sec:dangling}) bestand auch sicherlich in Document Examiner, aber da die Erstellung und Wartung des Inhalts nur durch Symbolics geschah \cite{Walker1987} konnte sichergestellt werden, dass jeder Link stets verbunden war. Auch das Problem Lost in Hyperspace (aus Abschnitt \ref{sec:lostInHyperspace}) konnte in dem System verringert werden. Die Candidates und Bookmark Pane gab dem Nutzer einen Überblick, was bereits gelesen war und was noch folgen kann. Auch die Verwendung der Buch Metapher solle nach Walker die Übersicht und Benutzerfreundlichkeit im Vergleich zu anderen Anwendung verbessert haben \cite{Walker1987}.
@@ -141,20 +154,32 @@ Die Inhalte in Document Examiner sind in sogenannte \glqq Records\grqq{ }unterte
 
 Während der achtziger Jahre arbeitete Bill Atkinson für Apple Computers und entwickelte mit an dem 1987 veröffentlichtem HyperCard. HyperCard ist ein System zum Entwickeln von Hypertextdokumenten und zugleich zur Entwicklung von grafischen Oberfläche. Das Hauptziel des System war es Lernen einfach zu gestalten \cite{Nielsen1991}. Grundlegend besteht HyperCard aus zwei Sub-Systeme, zum Einen die Grafische Oberfläche und zum Anderen die HyperTalk Programmiersprache. Es gibt unter anderem fünf basis Element: Stacks, Backgrounds, Cards, Fields, Buttons \cite{Goodman1988}. HyperCard macht sich in vielen Punkten die Karteikarten Metapher zunutze. Alle Informationen sind gleich Strukturiert und passen genau auf eine \glqq Card\grqq{ }. Diese Card passt genau auf einen 9" Macintosh Bildschirm und in ein einen \glqq Stack\grqq{ }einsortiert. Der Nutzer kann in dieser Standardanordnung von Cards blättern auch ohne Hyperlinks zu verwenden. Die eigentliche Hypertextfunktionalität kommt erst in Kombination mit der Programmiersprache HyperTalk \cite{Goodman1988}, \cite{Nielsen1991}. Eine Card war - vereinfacht gesagt - aus drei Schichten aufgebaut (Siehe Abbildung \ref{fig:layer}). Der \glqq Background Layer\grqq{ }der den gemeinsamen Hintergrund für alle Cards auf dem Stack zeigt. Der \glqq Forground Layer\grqq{ }der den Text, sowie Illustration für diese Card beinhaltet. Der \glqq Button Layer\grqq{ }der aktive Regionen enthält, die HyperTalk Skripte triggern können \cite{Nielsen1995}.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{image/layer}
 	\caption{Vereinfachte Ansicht der HyperCard Layer \cite{Nielsen1995}.}
 	\label{fig:layer}
 \end{figure}
 
-\begin{figure}[!ht]
+Verlinkungen wurden HyperCard mit HyperTalk implementiert. Ein Beispiel hierfür ist auf der Abbildung \ref{fig:hypercardLink} zusehen. In diesem Beispiel wurde der Hintergrund \glqq Six Monthly\grqq{ }gewählt. Beim Klicken auf eine Woche bestimmt das HyperTalk Skript auf welche Woche geklickt wurde und leitet den Nutzer auf die entsprechende Wochenkarte weiter. Es könnten aber auch weitere Berechnungen und Bedingungen die Verlinkung beeinflussen \cite{Goodman1988}, so konnten beliebig komplexe Hypertext entstehen. Ein solcher Link war allerdings immer nur unidirektional, ein Skript auf der Zielkarte konnte aber eine Link zurück anbieten. HyperCard identifiziert seine Cards mit der Position innerhalb eines Stacks.
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{image/hypercardLink}
 	\caption{Ein Beispiel für einen Monat, dargestellt als Card in HyperCard. Beim Klick auf eine Woche wird die entsprechende Card im Termin Stack geöffnet \cite{Goodman1988}.}
 	\label{fig:hypercardLink}
 \end{figure}
 
-Verlinkungen wurden HyperCard mit HyperTalk implementiert. Ein Beispiel hierfür ist auf der Abbildung \ref{fig:hypercardLink} zusehen. In diesem Beispiel wurde der Hintergrund \glqq Six Monthly\grqq{ }gewählt. Beim Klicken auf eine Woche bestimmt das HyperTalk Skript auf welche Woche geklickt wurde und leitet den Nutzer auf die entsprechende Wochenkarte weiter. Es könnten aber auch weitere Berechnungen und Bedingungen die Verlinkung beeinflussen \cite{Goodman1988}, so konnten beliebig komplexe Hypertext entstehen. Ein solcher Link war allerdings immer nur unidirektional, ein Skript auf der Zielkarte konnte aber eine Link zurück anbieten. HyperCard identifiziert seine Cards mit der Position innerhalb eines Stacks. Das Problem ist hierbei (wie in Abschnit \ref{sec:dangling} beschrieben), dass wenn man zum Beispiel Card zwei in einem Stack löscht, rücken alle späteren Cards nach \cite{Goodman1988}. Allerdings bot HyperCard noch eine andere Möglichkeit auf Cards zu referenzieren. Jede Card erhielt bei der Erstellung eine eindeutige Card ID, keine andere Card in dem Stack konnte diese ID haben. Selbst wenn eine Card gelöscht wurde, wurde die ID nicht erneut vergeben. So konnte zumindest nicht auf eine falsche Card verlinkt werden \cite{Goodman1988}.
+Das Problem ist hierbei (wie in Abschnit \ref{sec:dangling} beschrieben), dass wenn man zum Beispiel Card zwei in einem Stack löscht, rücken alle späteren Cards nach \cite{Goodman1988}. Allerdings bot HyperCard noch eine andere Möglichkeit auf Cards zu referenzieren. Jede Card erhielt bei der Erstellung eine eindeutige Card ID, keine andere Card in dem Stack konnte diese ID haben. Selbst wenn eine Card gelöscht wurde, wurde die ID nicht erneut vergeben. So konnte zumindest nicht auf eine falsche Card verlinkt werden \cite{Goodman1988}, das Problem einer Dangling Edge konnte trotzdem auftauchen (siehe Abschnitt \ref{sec:dangling}).
+
+\end{section}
+
+\begin{section}{Ist das noch Hypertext?}
+\label{sec:nochHypertext}
+
+Die Literatur erwähnt HyperCard oftmals als Hypertext-System \cite{Nielsen1995}, \cite{Dam1988}, \cite{Smith1988}, an dieser Stelle könnte man sich aber folgende Frage stellen: Ist ein System zum Entwickeln grafischer Oberflächen überhaupt noch ein Hypertext-System oder eher schon reine Programmiersprache?
+
+\hl{Siehe Definitionen aus Einleitung}
+Aber auch andere Hypertext-Systeme machen sich einer Art Programmiersprache zunutze
 
 \end{section}

@@ -1,14 +1,16 @@
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Was ist Hypertext?}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Was ist Hypertext?}{1}{section.1.1}
-\contentsline {chapter}{\numberline {2}Geschichtliche \IeC {\"U}bersicht}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}NLS und AUGMENT}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Problem: Dangling edges}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}HES}{7}{section.2.3}
-\contentsline {section}{\numberline {2.4}FRESS}{8}{section.2.4}
-\contentsline {section}{\numberline {2.5}Problem: Lost in Hyperspace}{9}{section.2.5}
-\contentsline {section}{\numberline {2.6}Document Examiner}{10}{section.2.6}
-\contentsline {section}{\numberline {2.7}HyperCard}{11}{section.2.7}
-\contentsline {chapter}{\numberline {3}Zusammenfassung}{15}{chapter.3}
-\contentsline {chapter}{\numberline {4}Literaturverzeichnis}{16}{chapter.4}
+\contentsline {section}{\numberline {1.1}Was ist \IeC {\"u}berhaupt Hypertext?}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Abgrenzung}{3}{section.1.2}
+\contentsline {chapter}{\numberline {2}Geschichtliche \IeC {\"U}bersicht}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}NLS und AUGMENT}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Problem: Dangling edges}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}HES}{8}{section.2.3}
+\contentsline {section}{\numberline {2.4}FRESS}{10}{section.2.4}
+\contentsline {section}{\numberline {2.5}Problem: Lost in Hyperspace}{11}{section.2.5}
+\contentsline {section}{\numberline {2.6}Document Examiner}{12}{section.2.6}
+\contentsline {section}{\numberline {2.7}HyperCard}{14}{section.2.7}
+\contentsline {section}{\numberline {2.8}Ist das noch Hypertext?}{17}{section.2.8}
+\contentsline {chapter}{\numberline {3}Zusammenfassung}{18}{chapter.3}
+\contentsline {chapter}{\numberline {4}Literaturverzeichnis}{19}{chapter.4}

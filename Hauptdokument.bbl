@@ -40,8 +40,8 @@ Life (1945).
 \newblock As we may think.
 \newblock {\em Life Magazine}.
 
-\bibitem[Lloyd, ]{Lloyd1969}
-Lloyd, G.
+\bibitem[Lloyd, 1969]{Lloyd1969}
+Lloyd, G. (1969).
 \newblock Photo of the hypertext editing system (hes) console in use at brown
   university.
 
@@ -51,24 +51,19 @@ Nelson, T.~H. (1965).
   indeterminate.
 \newblock {\em Vassar College Poughkeepsie, N.Y.}
 
-\bibitem[Nielsen, 1990]{Nielsen1990}
-Nielsen, J. (1990).
-\newblock {\em Hypertext and Hypermedia}.
-\newblock Academic Press, Boston, MA.
-
 \bibitem[Nielsen, 1995]{Nielsen1995}
 Nielsen, J. (1995).
 \newblock {\em Multimedia and Hypertext: The Internet and Beyond}.
 \newblock Academic Press, Boston, MA.
 
+\bibitem[Paul~Delany, 1995]{GeorgeLandow1995}
+Paul~Delany, G.~L. (1995).
+\newblock {\em Hypermedia and Literary Studies}.
+\newblock MIT Press.
+
 \bibitem[Smith and Weiss, 1988]{Smith1988}
 Smith, J.~B. and Weiss, S.~F. (1988).
 \newblock Hypertext.
-
-\bibitem[und George P.~Landow, 1995]{GeorgeLandow1995}
-und George P.~Landow, P.~D. (1995).
-\newblock {\em Hypermedia and Literary Studies}.
-\newblock MIT Press.
 
 \bibitem[van Dam, 1969]{Dam1969}
 van Dam, A. (1969).

@@ -73,6 +73,7 @@
 @Misc{Lloyd1969,
   author = {Gregory Lloyd},
   title  = {Photo of the Hypertext Editing System (HES) console in use at Brown University},
+  year   = {1969},
 }
 
 @Book{Dam1969,
@@ -85,7 +86,7 @@
   title     = {Hypermedia and Literary Studies},
   publisher = {MIT Press},
   year      = {1995},
-  author    = {Paul Delany und George P. Landow},
+  author    = {Paul Delany, George Landow},
   isbn      = {0-262-04119-7},
 }
 
@@ -113,7 +114,7 @@
 @Article{Nielsen1991,
   author  = {Jakob Nielsen, Ida Frehr, Hand Olav Nymand},
   title   = {The learnability of HayperCard as an object-oriented programming system},
-  journal = {T},
+  journal = {Technical University of Denmark, Department of Computer Science},
   year    = {1991},
 }
 
