@@ -1,4 +1,4 @@
-\chapter{Geschichtliche Übersicht}
+\chapter{Geschichtliches}
 \label{ch:Geschichtlich}
 
 In der Geschichte von Hypertext sind viele verschiedene Konzepte und Systeme entstanden. In diesem Kapitel werden für einen Überblick einige davon vorgestellt. Das Konzept hinter Hypertext kann auf einen Artikel aus dem Jahr 1945 zurückgeführt werden.
@@ -16,7 +16,7 @@ Im Jahr 1945 wurde \glqq As we may think\grqq{ }von Vannevar Bush veröffentlich
 	\label{fig:memex}
 \end{figure}
 
-In in diesem Konzept könne der Nutzer einen sogenannten \glqq main trail\grqq{ }aus Dokumenten erstellen. Dieser Trail solle eine Kombination aus Dokumenten sein, die aus der Perspektive des Nutzers von Interesse ist. Mit sogenannten \glqq side tails\grqq{ }könne der Nutzer ein Main Trail mit anderen Dokumenten \glqq verlinkt\grqq{ }\cite[Section 7]{Bush1945}. Diese Trails könnten als erstes Konzept von Hyperlinks verstanden werden. Zwei Jahrzehnte nach der Veröffentlichung von \glqq As we may think\grqq{ }, in der 1960er Jahren, wurde der erst der Begriff Hypertext von Ted Nelson geprägt. 
+In in diesem Konzept könne der Nutzer einen sogenannten \glqq main trail\grqq{ }aus Dokumenten erstellen. Dieser Trail solle eine Kombination aus Dokumenten sein, die aus der Perspektive des Nutzers von Interesse ist. Mit sogenannten \glqq side tails\grqq{ }könne der Nutzer ein Main Trail mit anderen Dokumenten \glqq verlinkt\grqq{ }\cite[Section 7]{Bush1945}. Diese Trails könnten als erstes Konzept von Hyperlinks verstanden werden. Zwei Jahrzehnte nach der Veröffentlichung von \glqq As we may think\grqq{ }, in der 1960er Jahren, wurde der erst der Begriff Hypertext von Theodor \glqq Ted\grqq{ }Holm Nelson geprägt. 
 
 \begin{quote}
 	\glqq Let me introduce the word hypertext to mean a body of written or pictorial material interconnected in such a complex way that it could not conveniently be presented or represented on paper. It may contain summaries, or maps of its contents and theier interrelations; it may contain annotations, additions and footnotes from scholars who have examined it. [...]\grqq{ }\cite{Nelson1965}
@@ -49,7 +49,7 @@ Gezeigt wurden aber auch die Hypertext Funktionalitäten, Dokumente seien verkn�
 \begin{section}{Problem: Dangling edges}
 \label{sec:dangling}
 
-Allerdings wäre Vannevar Bush bei einer Realisierung der Memex wahrscheinlich auf das gleiche Problem gestoßen wie Doug Engelbart. Ein Hypertext ist vergleichbar mit einem Graphen aus Nodes und Edges. Ein Text könnte ein Node sein und eine Verlinkungen zwischen zwei Texten ist eine Edge zwischen zwei Nodes. Durch entfernen von Nodes können \glqq dangling edges\grqq{ }entstehen. Die Abbildung \ref{fig:dangle} zeigt zum Beispiel durch das Entfernen des Textes $D$ zwei entstandenen Dangling Edges von $A$ und $E$. Bei NLS konnte durch das Bearbeiten der Dokumente oder Statements Dangling Edges entstehen. Dies könnte durch die verschiedenen Adressiermöglichkeiten zumindest eingedämmt werden \cite{Engelbart1984}.
+Allerdings wäre Vannevar Bush bei einer Realisierung der Memex wahrscheinlich auf das gleiche Problem gestoßen wie Doug Engelbart. Ein Hypertext ist vergleichbar mit einem Graphen aus Knoten und Kanten. Ein Text ist ein Knoten und die Verlinkungen zwischen den Texten sind die Kanten zwischen den Knoten. Durch entfernen von Knoten können sogenannte \glqq dangling edges\grqq{ }entstehen, eine Kante, die ein Start hat aber kein Ziel mehr. Die Abbildung \ref{fig:dangle} zeigt zum Beispiel durch das Entfernen des Textes $D$ zwei entstandenen Dangling Edges von $A$ und $E$. Bei NLS konnte durch das Bearbeiten der Dokumente oder Statements Dangling Edges entstehen. Dies könnte durch die verschiedenen Adressiermöglichkeiten zumindest eingedämmt werden \cite{Engelbart1984}.
 
 \begin{figure}[H]
 	\centering
@@ -59,9 +59,6 @@ Allerdings wäre Vannevar Bush bei einer Realisierung der Memex wahrscheinlich a
 \end{figure}
 
 \end{section}
-
-\hl{Je nachdem wer die Sachen bearbeitet, wird diese Problem erst relevant}
-\hl{In most cases so far, the people building the delivery interface are also the people creating the underlying information structure that it is delivering.}
 
 \begin{section}{HES}
 \label{sec:hes}
@@ -177,9 +174,21 @@ Das Problem ist hierbei (wie in Abschnit \ref{sec:dangling} beschrieben), dass w
 \begin{section}{Ist das noch Hypertext?}
 \label{sec:nochHypertext}
 
-Die Literatur erwähnt HyperCard oftmals als Hypertext-System \cite{Nielsen1995}, \cite{Dam1988}, \cite{Smith1988}, an dieser Stelle könnte man sich aber folgende Frage stellen: Ist ein System zum Entwickeln grafischer Oberflächen überhaupt noch ein Hypertext-System oder eher schon reine Programmiersprache?
+Die Literatur erwähnt HyperCard oftmals als Hypertext-System \cite{Nielsen1995}, \cite{Dam1988}, \cite{Smith1988}, an dieser Stelle könnte man sich aber folgende Frage stellen: Ist ein System zum Entwickeln grafischer Oberflächen überhaupt noch ein Hypertext-System oder eher schon Programmiersprache? 
+Zunächst einmal, was unterscheidet HyperCard von anderen Systemen und Konzepten? Jakob Nielsen schrieb in The learnability of HyperCard as an object-oriented programming system über das System als Programmiersprache, Nutzer mit Programmiererfahrung hätten es leicht die Benutzung von HyperTalk zu verstehen \cite{Nielsen1991}. Aber auch in anderen Systemen, wie das HES, müsse der Nutzer zunächst eine Syntax beherrschen um Text zu verfassen und Links zu erstellen \cite{Dam1969}.
 
-\hl{Siehe Definitionen aus Einleitung}
-Aber auch andere Hypertext-Systeme machen sich einer Art Programmiersprache zunutze
+\begin{quote}
+\glqq I remember this particular demo we did at Time/Life when our audience said, “That’s great, but it will take us at least 10 years before people will be willing to sit down behind tubes and do anything on-line.”\grqq{ }\cite{Dam1988}
+\end{quote}
+
+Auch das Konzept des Main Trails aus der Memex, kann man im wesentlichen mit den Stacks von HyperCard vergleichen. Auch unsere Definitionen aus Kapitel \ref{ch:Was ist Hypertext?} treffen auf HyperCard zu zum Beispiel schrieben John Smith und Stephen Weiss in dem Artikel Hypertext \glqq [...] Hypertext is an approach to information management in which data is stored in a network of nodes connected by links. Nodes can contain text, graphics, audio, video, as well as source code or other forms of data.\grqq{ }\cite{Smith1988} und genau diese Eigenschaften treffen auf HyperCard zu. Informationen sind auf den Cards, die durch Links untereinander verbunden sind.
+
+\hl{was hat den Erfolg von HyperCard ausgemacht?}
+\glqq One of the main design goals of HyperCard was to make it simple and easy to learn.\grqq \cite{Nielsen1991} und auch die Memex 
+
+Ein Hypertext-System hat neben der nötigen Benutzerfreundlichkeit für eine hohe Akzeptanz, hat ein solches System aber auch mit andern Problemen zu kämpfen. Da ein Hypertext wie ein wie ein Graph zu betrachten ist und dieser sich bei einigen Anwendungen während der Lebenszeit verändert, können Links ihr Ziel verlieren oder ein Link auf ein falsches Ziel zeigen (Siehe Abschnitt \ref{sec:dangling}). Janet Walker schrieb 1987 in Document Examiner: Delivery Interface for Hypertext Documents: \glqq In most cases so far, the people building the delivery interface are also the people creating the underlying information structure that it is delivering.\grqq{Walker1987}. Ob diese wertende Aussage nun wirklich zutrifft oder nicht soll an dieser Stelle nicht beurteilt werden. Allerdings würde bei einer Vermeidung der dangling Edges bei der Erstellung und vor der Auslieferung, der letztendliche Nutzer dieses Problem niemals zu spüren bekommen.
+
+Das Lost in Hyperspace Problem aus \ref{sec:lostInHyperspace} zeigt, dass ein Hypertext-System eventuell nicht eine Erweiterung des Menschlichen Intellekts ist.
+
 
 \end{section}

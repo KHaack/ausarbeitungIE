@@ -17,7 +17,7 @@
 }
 
 @Article{Nelson1965,
-  author  = {Ted H. Nelson},
+  author  = {Theodor Holm Nelson},
   title   = {A File Structure for the Complex, the Changing, and the Indeterminate},
   journal = {Vassar College Poughkeepsie, N.Y.},
   year    = {1965},
@@ -116,6 +116,13 @@
   title   = {The learnability of HayperCard as an object-oriented programming system},
   journal = {Technical University of Denmark, Department of Computer Science},
   year    = {1991},
+}
+
+@Book{Nelson198,
+  title     = {Literary Machines},
+  publisher = {University of Michigan},
+  year      = {1987},
+  author    = {Theodor Holm Nelson},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
