@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.18)  21 FEB 2019 09:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.18)  21 FEB 2019 09:31
 entering extended mode
 **./Hauptdokument.tex
 (Hauptdokument.tex
@@ -1066,7 +1066,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 4.
-<image/nielsenLink.png, id=57, 452.892pt x 207.174pt>
+<image/nielsenLink.png, id=56, 452.892pt x 207.174pt>
 File: image/nielsenLink.png Graphic file (type png)
 <use image/nielsenLink.png>
 Package pdftex.def Info: image/nielsenLink.png  used on input line 17.
@@ -1086,7 +1086,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 ]
-<image/imText.png, id=77, 431.81325pt x 469.755pt>
+<image/imText.png, id=76, 431.81325pt x 469.755pt>
 File: image/imText.png Graphic file (type png)
 <use image/imText.png>
 Package pdftex.def Info: image/imText.png  used on input line 33.
@@ -1142,7 +1142,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<image/memex.png, id=106, 435.42674pt x 298.11375pt>
+<image/memex.png, id=105, 435.42674pt x 298.11375pt>
 File: image/memex.png Graphic file (type png)
 <use image/memex.png>
 Package pdftex.def Info: image/memex.png  used on input line 14.
@@ -1171,7 +1171,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 27.
-<image/mother.png, id=124, 1156.32pt x 609.477pt>
+<image/mother.png, id=123, 1156.32pt x 609.477pt>
 File: image/mother.png Graphic file (type png)
 <use image/mother.png>
 Package pdftex.def Info: image/mother.png  used on input line 40.
@@ -1211,7 +1211,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 62.
-<image/dangle.png, id=152, 452.892pt x 207.174pt>
+<image/dangle.png, id=151, 452.892pt x 207.174pt>
 File: image/dangle.png Graphic file (type png)
 <use image/dangle.png>
 Package pdftex.def Info: image/dangle.png  used on input line 69.
@@ -1235,7 +1235,7 @@ Overfull \hbox (11.15414pt too wide) in paragraph at lines 79--80
 em Na-mens []HES\
  []
 
-<image/hes.jpg, id=164, 688.0104pt x 529.0164pt>
+<image/hes.jpg, id=163, 688.0104pt x 529.0164pt>
 File: image/hes.jpg Graphic file (type jpg)
 <use image/hes.jpg>
 Package pdftex.def Info: image/hes.jpg  used on input line 89.
@@ -1259,7 +1259,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 102.
-<image/augment.png, id=182, 352.31625pt x 281.853pt>
+<image/augment.png, id=181, 352.31625pt x 281.853pt>
 File: image/augment.png Graphic file (type png)
 <use image/augment.png>
 Package pdftex.def Info: image/augment.png  used on input line 109.
@@ -1311,12 +1311,12 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 144.
  [12]
-<image/document.png, id=214, 694.9965pt x 516.7305pt>
+<image/document.png, id=213, 694.9965pt x 516.7305pt>
 File: image/document.png Graphic file (type png)
 <use image/document.png>
 Package pdftex.def Info: image/document.png  used on input line 148.
 (pdftex.def)             Requested size: 318.67209pt x 236.9341pt.
-<image/candidates.png, id=220, 514.3215pt x 207.77625pt>
+<image/candidates.png, id=219, 514.3215pt x 207.77625pt>
 File: image/candidates.png Graphic file (type png)
 <use image/candidates.png>
 Package pdftex.def Info: image/candidates.png  used on input line 157.
@@ -1361,7 +1361,7 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.175 \item F
              ields <./image/candidates.png>]
-<image/layer.png, id=248, 540.21825pt x 482.40225pt>
+<image/layer.png, id=247, 540.21825pt x 482.40225pt>
 File: image/layer.png Graphic file (type png)
 <use image/layer.png>
 Package pdftex.def Info: image/layer.png  used on input line 183.
@@ -1381,7 +1381,7 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.189 
        <./image/layer.png>]
-<image/hypercardLink.png, id=260, 212.59425pt x 240.29774pt>
+<image/hypercardLink.png, id=259, 212.59425pt x 240.29774pt>
 File: image/hypercardLink.png Graphic file (type png)
 <use image/hypercardLink.png>
 Package pdftex.def Info: image/hypercardLink.png  used on input line 192.
@@ -1482,9 +1482,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Hauptdokument.pdf (23 pages, 4307707 bytes).
+Output written on Hauptdokument.pdf (23 pages, 4308062 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
+ 383 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
