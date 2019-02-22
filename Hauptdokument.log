@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.18)  21 FEB 2019 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.18)  22 FEB 2019 09:04
 entering extended mode
 **./Hauptdokument.tex
 (Hauptdokument.tex
@@ -1110,6 +1110,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 46.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 46.
+
+Overfull \hbox (6.54437pt too wide) in paragraph at lines 49--50
+\OT1/lmr/m/n/12 noch vie-le an-de-re Ant-wor-ten und De-fi-ni-tio-nen. Doch im 
+Jahr 1945 ver[]offentlichte
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 50.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1118,8 +1124,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 50.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 50.
- [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2
-}) has been already used, duplicate ignored
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1259,167 +1265,173 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 102.
-<image/augment.png, id=181, 352.31625pt x 281.853pt>
-File: image/augment.png Graphic file (type png)
-<use image/augment.png>
-Package pdftex.def Info: image/augment.png  used on input line 109.
-(pdftex.def)             Requested size: 358.50229pt x 286.80244pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 110.
  [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.113 
+l.110 
        <./image/hes.jpg>]
+<image/augment.png, id=189, 352.31625pt x 281.853pt>
+File: image/augment.png Graphic file (type png)
+<use image/augment.png>
+Package pdftex.def Info: image/augment.png  used on input line 113.
+(pdftex.def)             Requested size: 358.50229pt x 286.80244pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 125.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 125.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 125.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 125.
  [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.121 
+l.125 
        <./image/augment.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 124.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 124.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 137.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 137.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 148.
  [12]
-<image/document.png, id=213, 694.9965pt x 516.7305pt>
+<image/document.png, id=214, 694.9965pt x 516.7305pt>
 File: image/document.png Graphic file (type png)
 <use image/document.png>
-Package pdftex.def Info: image/document.png  used on input line 148.
+Package pdftex.def Info: image/document.png  used on input line 152.
 (pdftex.def)             Requested size: 318.67209pt x 236.9341pt.
-<image/candidates.png, id=219, 514.3215pt x 207.77625pt>
+<image/candidates.png, id=220, 514.3215pt x 207.77625pt>
 File: image/candidates.png Graphic file (type png)
 <use image/candidates.png>
-Package pdftex.def Info: image/candidates.png  used on input line 157.
+Package pdftex.def Info: image/candidates.png  used on input line 161.
 (pdftex.def)             Requested size: 358.50229pt x 144.8273pt.
 
-Underfull \hbox (badness 2050) in paragraph at lines 158--158
+Underfull \hbox (badness 2050) in paragraph at lines 162--162
 [][][]\OT1/lmr/m/n/12 Zeigt die vor-ge-schla-ge-nen Re-cords, die mit dem Be-fe
 hl
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 165.
 [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.161 
+l.165 
        <./image/document.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 170.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 170.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 179.
  [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.175 \item F
+l.179 \item F
              ields <./image/candidates.png>]
-<image/layer.png, id=247, 540.21825pt x 482.40225pt>
+<image/layer.png, id=248, 540.21825pt x 482.40225pt>
 File: image/layer.png Graphic file (type png)
 <use image/layer.png>
-Package pdftex.def Info: image/layer.png  used on input line 183.
+Package pdftex.def Info: image/layer.png  used on input line 187.
 (pdftex.def)             Requested size: 358.50229pt x 320.1457pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 193.
  [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.189 
+l.193 
        <./image/layer.png>]
-<image/hypercardLink.png, id=259, 212.59425pt x 240.29774pt>
+<image/hypercardLink.png, id=260, 212.59425pt x 240.29774pt>
 File: image/hypercardLink.png Graphic file (type png)
 <use image/hypercardLink.png>
-Package pdftex.def Info: image/hypercardLink.png  used on input line 192.
+Package pdftex.def Info: image/hypercardLink.png  used on input line 196.
 (pdftex.def)             Requested size: 358.50229pt x 405.27777pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 202.
  [16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.198 
+l.202 
        <./image/hypercardLink.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 205.
 
-Overfull \hbox (4.34186pt too wide) in paragraph at lines 204--206
+Overfull \hbox (4.34186pt too wide) in paragraph at lines 208--210
 \OT1/lmr/m/n/12 Die Li-te-ra-tur erw[]ahnt Hy-per-Card oft-mals als Hypertext-S
 ystem [[]],
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 218.
-[17])
+(babel)             in language  on input line 222.
+[17]
+Overfull \hbox (11.78493pt too wide) in paragraph at lines 223--224
+\OT1/lmr/m/n/12 das Lost-in-Hyperspace Pro-blem aus Ab-schnitt []2.5[] zeigt, d
+ass Hypertext-Systeme
+ []
+
+)
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 97.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1467,10 +1479,10 @@ Package rerunfilecheck Info: File `Hauptdokument.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 21127 strings out of 492973
- 370712 string characters out of 3135935
+ 21126 strings out of 492973
+ 370697 string characters out of 3135935
  577737 words of memory out of 3000000
- 24697 multiletter control sequences out of 15000+200000
+ 24696 multiletter control sequences out of 15000+200000
  574330 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,77p,9115b,559s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1482,9 +1494,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Hauptdokument.pdf (23 pages, 4308062 bytes).
+Output written on Hauptdokument.pdf (23 pages, 4308510 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
+ 384 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

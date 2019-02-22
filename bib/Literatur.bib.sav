@@ -118,10 +118,10 @@
   year    = {1991},
 }
 
-@Book{Nelson198,
+@Book{Nelson19,
   title     = {Literary Machines},
   publisher = {University of Michigan},
-  year      = {1987},
+  year      = {1992},
   author    = {Theodor Holm Nelson},
 }
 
