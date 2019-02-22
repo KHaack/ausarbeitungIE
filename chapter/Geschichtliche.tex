@@ -27,7 +27,7 @@ Nach Ted Nelson habe ein System auf Papier gravierende Einschränkungen beim Org
 \begin{section}{NLS und AUGMENT}
 \label{sec:nls}
 
-Im gleichen Jahrzehnt erschien Doug Engelbarts \glqq Augmenting Human Intellect: A Conceptual Framework\grqq{ }. Er schrieb unter anderen von dem \glqq digital computer as a tool for the personal use of an individual. Here there is not only promise of great flexibility in the composing and rearranging of text [...]\grqq{ }\cite[S. 17]{Engelbart1962}.
+Im gleichen Jahrzehnt erschien Doug Engelbarts \glqq Augmenting Human Intellect: A Conceptual Framework\grqq{ }. Er schrieb unter anderen von dem \glqq digitalen Computer als Werkzeug für die persönliche Benutzung. Hier verspricht man nicht nur große Flexibilität beim Erstellen und Neuanordnen von Texten und Diagrammen direkt vor den Auge des Benutzers, sondern auch viele andere Verarbeitungsmöglichkeiten [...]\grqq{ }\cite[S. 17]{Engelbart1962}.
 
 \begin{quote}
 \glqq By augmenting human intellect we mean increasing the capability of a man to approach a complex problem situation [...].\grqq{ }\cite[S. 1]{Engelbart1962}
@@ -121,20 +121,24 @@ Im Gegensatz zum Vorgänger unterstützte FRESS bidirektionale Links, so genannt
 \glqq FRESS had two types of links - indicated a connection to a single element such as an annotation, definition, or footnote. When the reader pointed to a tag with a light pen, the associated text appeared in another window on the screen for reference while the reader remained in the main document. Unlinke a tag, a jump - a bidirectional link - indicated a path to another document. By following a jump, the reader was transferred from one document to another, and up to seven windows could be used to display documents simultaneously. \grqq{ }\cite[S.68]{GeorgeLandow1995}
 \end{quote}
 
-FRESS unterstütze so den Nutzer beim Navigieren durch die Links, außerdem konnte so der Autor, wie schon bei der Memex angedacht, eine Art Main Track oder Side Tracks erstellen. Im Dokument wurden die \glqq cross-reference markers\grqq{ }angezeigt, diese zeigten dem Nutzer alle Verlinkungen an und gaben dem Leser einen \glqq Backtrack\grqq{ }durch seine besuchten Links. Diese waren in FRESS eigene Objekte und nicht mehr einfach Teile eines Textes. Es sei möglich gewesen Links zu typisieren oder zu labeln, indem man sie mit \glqq key words\grqq{ }versehe \cite[S.891]{Dam1988}. Das System wurde auf Grund des hohen Funktionsumfangs nicht fertig gestellt, van Dam schrieb \glqq It was overkill, and we haven’t done it since, but it certainly was interesting.\grqq{ }\cite[S.891]{Dam1988}.
+FRESS unterstütze so den Nutzer beim Navigieren durch die Links, außerdem konnte so der Autor, wie schon bei der Memex angedacht, eine Art Main Track oder Side Tracks erstellen. Im Dokument wurden die \glqq cross-reference markers\grqq{ }angezeigt, diese zeigten dem Nutzer alle Verlinkungen an und gaben dem Leser einen \glqq Backtrack\grqq{ }durch seine besuchten Links. Diese waren in FRESS eigene Objekte und nicht mehr einfach Teile eines Textes. Es sei möglich gewesen Links zu typisieren oder zu labeln, indem man sie mit \glqq key words\grqq{ }versehe \cite[S.891]{Dam1988}. Das System wurde auf Grund des hohen Funktionsumfangs nicht fertig gestellt, van Dam schrieb:
+
+\begin{quote}
+\glqq It was overkill, and we haven’t done it since, but it certainly was interesting.\grqq{ }\cite[S.891]{Dam1988}
+\end{quote} 
 
 \end{section}
 
 \begin{section}{Problem: Lost in Hyperspace}
 \label{sec:lostInHyperspace}
 
-Je komplexer und größer ein Hypertext Graph wird, desto einfacher kann man sich auf der Vielzahl von Branches verlieren. So auch van Dam: \glqq We already started getting the notion that the richer the hypertext, the greater the navigational problem. \grqq{ }. Nach van Dam sei das \glqq come from\grqq{ } genauso wichtig wie das \glqq go to\grqq{ }\cite{Dam1988}.
+Je komplexer und größer ein Hypertext Graph wird, desto einfacher kann man sich auf der Vielzahl von Branches verlieren. So auch van Dam: \glqq Wir hatten bereits Bemerkt, dass je größer der Hypertext ist, desto größer das Navigationsproblem ist\grqq{ }\cite{Dam1988}. Nach van Dam sei das \glqq come from\grqq{ } genauso wichtig wie das \glqq go to\grqq{ }\cite{Dam1988}. Er schrieb über HES:
 
 \begin{quote}
 \glqq [...] The real diagram was about the size of a large blueprint [...]. We had already come to the point where Ted, who designed it, was able to go through the hypertext pretty well, but some of the rest of us had difficulty following it - it was not exactly obvious where you were. This, of course, is the classical lost-in-hyperspace problem [...]\grqq{ }\cite{Dam1988}
 \end{quote}
 
-FRESS nutzte beim Aufruf von Links beispielsweise Windows bidirektionale Links damit der Nutzer jederzeit einen Weg zurück fand. Bei einer Umsetzung der Memex ist zu vermuten, dass dieses Problem durch die zwei Anzeigen zumindest entschärft worden wäre, aber auch hier wäre man beim Navigieren durch die Dokumente irgendwann \glqq lost in hyperspace\grqq gewesen. Erst die bidirektionalen Links und Windows lösen dieses Problem und geben dem Nutzer die Möglichkeit seinen Weg zurückzugehen.
+FRESS nutzte hingegen beim Navigieren Windows und bidirektionale Links damit der Nutzer jederzeit einen Weg zurück fand. Bei einer Umsetzung der Memex ist zu vermuten, dass dieses Problem durch die zwei Anzeigen zumindest entschärft worden wäre, aber auch hier wäre man beim Navigieren durch die Dokumente irgendwann \glqq lost in hyperspace\grqq gewesen. Erst die bidirektionalen Links und Windows lösen dieses Problem und geben dem Nutzer die Möglichkeit seinen Weg zurückzugehen.
 
 \end{section}
 
@@ -218,8 +222,14 @@ Auch das Konzept des Main Trails aus der Memex, kann man im wesentlichen mit den
 \glqq One of the main design goals of HyperCard was to make it simple and easy to learn.\grqq \cite{Nielsen1991}
 \end{quote}
 
-Ein Hypertext-System hat neben der nötigen Benutzerfreundlichkeit für eine hohe Akzeptanz auch mit andern Problemen zu kämpfen. Da ein Hypertext wie ein Graph zu betrachten ist und dieser sich bei einigen Anwendungen während der Lebenszeit verändert, können Links ihr Ziel verlieren oder ein Link auf ein falsches Ziel zeigen (Siehe Abschnitt \ref{sec:dangling}). Janet Walker schrieb 1987 in Document Examiner: Delivery Interface for Hypertext Documents: \glqq In most cases so far, the people building the delivery interface are also the people creating the underlying information structure that it is delivering.\grqq{Walker1987}. Ob diese wertende Aussage nun wirklich zutrifft oder nicht soll an dieser Stelle nicht beurteilt werden. Allerdings würde bei einer Vermeidung der Dangling Edges schon bei der Erstellung und vor der Auslieferung, der letztendliche Nutzer dieses Problem niemals zu spüren bekommen.
+Ein Hypertext-System hat neben der nötigen Benutzerfreundlichkeit für eine hohe Akzeptanz auch mit andern Problemen zu kämpfen. Da ein Hypertext wie ein Graph zu betrachten ist und dieser sich bei einigen Anwendungen während der Lebenszeit verändert, können Links ihr Ziel verlieren oder ein Link auf ein falsches Ziel zeigen (Siehe Abschnitt \ref{sec:dangling}). Janet Walker schrieb 1987 in \glqq Document Examiner: Delivery Interface for Hypertext Documents\grqq: 
 
-Vannevar Bush schrieb vom menschlichen Verstand: \glqq The human mind does not work that way. It operarcs by association.\grqq{ }\cite{Bush1945} \cite{Life1945}. Doch das Lost-in-Hyperspace Problem aus Abschnitt \ref{sec:lostInHyperspace} zeigt, dass Hypertext-Systeme rein nach seinem Konzept nicht unbedingt die optimale Lösung für den menschlichen Verstand sind. Zum Beispiel Hypertext-System wie Document Examiner und HyperCard helfen dem Nutzer mit Metaphern wie einem Buch oder einem Karteikartenstapel, sowie mit Funktionen wie dem Candidates Pane und einer Textsuche.
+\begin{quote}
+\glqq In most cases so far, the people building the delivery interface are also the people creating the underlying information structure that it is delivering.\grqq{Walker1987}
+\end{quote}
+
+Ob diese wertende Aussage nun wirklich zutrifft oder nicht soll an dieser Stelle nicht beurteilt werden. Allerdings würde bei einer Vermeidung der Dangling Edges schon bei der Erstellung und vor der Auslieferung, der letztendliche Nutzer dieses Problem niemals zu spüren bekommen.
+
+Vannevar Bush schrieb vom menschlichen Verstand, \glqq er funktioniert nicht auf diese Weise. Er arbeitet assoziativ.\grqq{ }\cite{Bush1945} \cite{Life1945}. Doch das Lost-in-Hyperspace Problem aus Abschnitt \ref{sec:lostInHyperspace} zeigt, dass Hypertext-Systeme rein nach seinem Konzept nicht unbedingt die optimale Lösung für den menschlichen Verstand sind. Zum Beispiel Hypertext-System wie Document Examiner und HyperCard helfen dem Nutzer mit Metaphern wie einem Buch oder einem Karteikartenstapel, sowie mit Funktionen wie dem Candidates Pane und einer Textsuche.
 
 \end{section}
