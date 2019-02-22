@@ -2,7 +2,7 @@
 \babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Was ist Hypertext?}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Was ist \IeC {\"u}berhaupt Hypertext?}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Abgrenzung}{3}{section.1.2}
+\contentsline {section}{\numberline {1.2}Abgrenzung}{4}{section.1.2}
 \contentsline {chapter}{\numberline {2}Geschichtliches}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}NLS und AUGMENT}{6}{section.2.1}
 \contentsline {section}{\numberline {2.2}Problem: Dangling edges}{8}{section.2.2}
@@ -11,5 +11,5 @@
 \contentsline {section}{\numberline {2.5}Problem: Lost in Hyperspace}{12}{section.2.5}
 \contentsline {section}{\numberline {2.6}Document Examiner}{12}{section.2.6}
 \contentsline {section}{\numberline {2.7}HyperCard}{14}{section.2.7}
-\contentsline {section}{\numberline {2.8}Ist das noch Hypertext?}{17}{section.2.8}
-\contentsline {chapter}{\numberline {3}Literaturverzeichnis}{19}{chapter.3}
+\contentsline {section}{\numberline {2.8}Ist das noch Hypertext?}{18}{section.2.8}
+\contentsline {chapter}{\numberline {3}Literaturverzeichnis}{20}{chapter.3}
